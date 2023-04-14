@@ -1,10 +1,14 @@
-import "./App.css";
+import HomePage from "./pages/HomePage/HomePage";
+import { AppWrapper } from "./App.style";
+import { Routes, Route } from "react-router-dom";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   return (
-    <div>
-      <a href="">App</a>
-    </div>
+    <AppWrapper>
+      <NavBar />
+      <HomePage />
+    </AppWrapper>
   );
 }
 
