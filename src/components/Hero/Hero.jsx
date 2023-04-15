@@ -7,6 +7,7 @@ import {
 } from "./Hero.style";
 import Button from "../CustomButton/Button";
 import { BsApple, BsGooglePlay } from "react-icons/bs";
+import phone from "../../assets/mock-up.png";
 
 function Hero() {
   return (
@@ -38,10 +39,7 @@ function Hero() {
         </ButtonContainer>
       </Header>
       <ImageContainer>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/IPhone_14_Pro_vector_%28blue%29.svg/1200px-IPhone_14_Pro_vector_%28blue%29.svg.png"
-          alt=""
-        />
+        <img src={phone} alt="" />
       </ImageContainer>
     </HeroWrapper>
   );

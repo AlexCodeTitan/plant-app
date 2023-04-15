@@ -11,7 +11,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --dark: #124b2a;
+  /* --dark: #124b2a; */
+  --dark: #103620;
   --light: #d8ffca;
   --highlight: #e5b5cc;
 }
@@ -33,4 +34,33 @@ a:hover {
 body {
   margin: 0;
   padding: 0;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--light);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--light);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--dark);
+}
+
+body::-moz-scrollbar {
+  width: 10px;
+  background-color: var(--light);
+}
+
+body::-moz-scrollbar-thumb {
+  background-color: var(--light);
+  border-radius: 5px;
+}
+
+body::-moz-scrollbar-track {
+  background-color: var(--dark);
 }
