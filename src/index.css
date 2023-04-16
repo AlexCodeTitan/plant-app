@@ -4,6 +4,15 @@
   color-scheme: light dark;
   color: var(--light);
   background-color: var(--dark);
+  background: linear-gradient(
+    315deg,
+    rgba(80, 157, 113, 1) 0%,
+    rgba(68, 138, 98, 1) 10%,
+    rgba(56, 118, 83, 1) 24%,
+    rgba(39, 91, 62, 1) 38%,
+    rgba(25, 68, 44, 1) 60%,
+    rgba(16, 54, 32, 1) 100%
+  );
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
